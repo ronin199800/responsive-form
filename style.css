@@ -1,0 +1,113 @@
+@font-face {
+    font-family: robot;
+    src: url(RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: some;
+    src: url(FredokaOne-Regular.ttf);
+}
+body{
+    font-size: 16px;
+    background: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+    font-family: robot;
+}
+.form-container{
+    width: 500px;
+    height: 70vh;
+    margin: 40px auto;
+/* From https://css.glass */
+background: rgba(198, 198, 198, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.3px);
+-webkit-backdrop-filter: blur(4.3px);
+color: #e0dfdc;
+    padding: 50px;
+    
+}
+.form-container h1{
+    /* text-shadow: inherit; */
+    font-size: 1.85em;
+font-family: some;
+letter-spacing: 1px;
+
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.form-container form input[type='text']{
+    width: 270px;
+    height: 30px;
+    border-radius: 20px;
+    background: rgba(32, 32, 32, 0.41);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.3px);
+-webkit-backdrop-filter: blur(4.3px);
+border: 1px solid rgba(32, 32, 32, 0.46);
+color:#e0dfdc ;
+}
+.form-container form label[for='username']{
+
+
+text-shadow: #474747 3px 5px 2px;
+}
+.form-container form input[id="password"]{
+    width: 270px;
+    height: 30px;
+    border-radius: 20px;
+    background: rgba(32, 32, 32, 0.41);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.3px);
+-webkit-backdrop-filter: blur(4.3px);
+border: 1px solid rgba(32, 32, 32, 0.46);
+color:#e0dfdc ;
+}
+.form-container form label[for='password']{
+
+
+    text-shadow: #474747 3px 5px 2px;
+}
+.form-container form input[id="Re-password"]{
+    width: 270px;
+    height: 30px;
+    border-radius: 20px;
+    background: rgba(32, 32, 32, 0.41);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.3px);
+-webkit-backdrop-filter: blur(4.3px);
+border: 1px solid rgba(32, 32, 32, 0.46);
+color:#e0dfdc ;
+}
+.form-container form label[for="Re-password"]{
+
+
+    text-shadow: #474747 3px 5px 2px;
+
+}
+input,label{
+    margin-top: 13px;
+}
+input[type='submit']{
+    padding: 6px 40px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border-radius: 23px;
+    color: inherit;
+    align-self: stretch;
+    border: 1px solid #e0dfdc;
+    box-shadow: -2px 3px;
+    margin: 30px !important;
+}
