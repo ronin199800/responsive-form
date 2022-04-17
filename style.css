@@ -3,8 +3,8 @@
     src: url(RobotoMono-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: some;
-    src: url(FredokaOne-Regular.ttf);
+    font-family: nasa;
+    src: url(nasalization-rg.ttf);
 }
 body{
     font-size: 16px;
@@ -18,22 +18,24 @@ body{
 }
 .form-container{
     width: 500px;
-    height: 70vh;
+    height: 700px;
     margin: 40px auto;
-/* From https://css.glass */
-background: rgba(198, 198, 198, 0.12);
+
+
+background: rgba(255, 255, 255, 0.03);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(4.3px);
 -webkit-backdrop-filter: blur(4.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 color: #e0dfdc;
     padding: 50px;
     
 }
 .form-container h1{
-    /* text-shadow: inherit; */
+color: white;
     font-size: 1.85em;
-font-family: some;
+font-family: nasa;
 letter-spacing: 1px;
 
 }
@@ -50,11 +52,13 @@ letter-spacing: 1px;
     height: 30px;
     border-radius: 20px;
     background: rgba(32, 32, 32, 0.41);
+
+background: rgba(255, 255, 255, 0.08);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.3px);
--webkit-backdrop-filter: blur(4.3px);
-border: 1px solid rgba(32, 32, 32, 0.46);
+backdrop-filter: blur(6.9px);
+-webkit-backdrop-filter: blur(6.9px);
+border: 1px solid rgba(255, 255, 255, 0.08);
 color:#e0dfdc ;
 }
 .form-container form label[for='username']{
@@ -68,10 +72,13 @@ text-shadow: #474747 3px 5px 2px;
     border-radius: 20px;
     background: rgba(32, 32, 32, 0.41);
 border-radius: 16px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.08);
+border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.3px);
--webkit-backdrop-filter: blur(4.3px);
-border: 1px solid rgba(32, 32, 32, 0.46);
+backdrop-filter: blur(6.9px);
+-webkit-backdrop-filter: blur(6.9px);
+border: 1px solid rgba(255, 255, 255, 0.08);
 color:#e0dfdc ;
 }
 .form-container form label[for='password']{
@@ -85,10 +92,13 @@ color:#e0dfdc ;
     border-radius: 20px;
     background: rgba(32, 32, 32, 0.41);
 border-radius: 16px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.08);
+border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.3px);
--webkit-backdrop-filter: blur(4.3px);
-border: 1px solid rgba(32, 32, 32, 0.46);
+backdrop-filter: blur(6.9px);
+-webkit-backdrop-filter: blur(6.9px);
+border: 1px solid rgba(255, 255, 255, 0.08);
 color:#e0dfdc ;
 }
 .form-container form label[for="Re-password"]{
@@ -121,4 +131,16 @@ input[type='submit']:hover{
     /* font-weight: bold; */
     text-shadow: 1px 1px #474747;
 
+}
+.icon{
+    text-align: center;
+}
+input[type='text']:focus{
+ outline: 1px solid #474747;
+}
+input[id="password"]:focus{
+ outline: 1px solid #474747;
+}
+input[id="Re-password"]:focus{
+ outline: 1px solid #474747;
 }
