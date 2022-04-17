@@ -110,4 +110,11 @@ input[type='submit']{
     border: 1px solid #e0dfdc;
     box-shadow: -2px 3px;
     margin: 30px !important;
+    transition: .1s;
+    
+}
+input[type='submit']:hover{
+    background-color: #e0dfdc;
+    box-shadow: none;
+    color: black;
 }
