@@ -17,9 +17,9 @@ body{
     font-family: robot;
 }
 .form-container{
-    width: 500px;
+    width: 450px;
     height: 650px;
-    margin: 40px auto;
+    margin: 60px auto;
 
 
     background: rgba(255, 255, 255, 0.03);
