@@ -117,4 +117,8 @@ input[type='submit']:hover{
     background-color: #e0dfdc;
     box-shadow: none;
     color: black;
+    box-shadow: 1px 4px 5px black inset;
+    /* font-weight: bold; */
+    text-shadow: 1px 1px #474747;
+
 }
