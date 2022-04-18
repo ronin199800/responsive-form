@@ -163,6 +163,7 @@ input[id="Re-password"]:focus{
         height: 100vh;
         margin: 0 0 0 0;
         padding: 0 0 0 30px;
+        border-radius: 0 ;
     }
     .form-container form input[type='text']{
         width: 360px;
@@ -191,6 +192,7 @@ body{
     box-shadow: none;
     margin: 0 0 0 0;
     padding: 23 0 0 23px;
+    border-radius: 0;
 
 }
 
