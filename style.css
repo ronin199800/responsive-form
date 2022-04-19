@@ -167,7 +167,7 @@ input[id="Re-password"]:focus{
     body{
         margin: 0;
         padding: 0;
-        font-size: .9em;
+        font-size: .85em;
     }
 
     .form-container{
@@ -218,10 +218,10 @@ body{
     width: 260px;
 }
 input[type='submit']{
-    align-self: flex-end;
+    align-self: center;
 }
 input[type='submit']{
-width: 250px;
+width: 300px;
 margin-right: 10px;
 }
 
